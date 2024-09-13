@@ -36,16 +36,16 @@ public class Main
                 throw new NullPointerException("Any of the names list is empty...");
 
             nameService.addFemaleFirstName("Emily");
-//            nameService.addFemaleFirstName("Emily");
-//            nameService.addFemaleFirstName("Lilly");
+           nameService.addFemaleFirstName("Emily");
+           nameService.addFemaleFirstName("Lilly");
             System.out.println();
 
             nameService.addMaleFirstName("Cris");
-//            nameService.addMaleFirstName("Gustav");
+           nameService.addMaleFirstName("Gustav");
             System.out.println();
 
             nameService.addLastName("Jackson");
-//            nameService.addLastName("Hansson");
+            nameService.addLastName("Hansson");
             System.out.println();
 
             if(nameService != null) {
