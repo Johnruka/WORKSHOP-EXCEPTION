@@ -2,6 +2,7 @@ package se.lexicon.data_access;
 
 import se.lexicon.domain.Gender;
 import se.lexicon.domain.Person;
+import se.lexicon.exception.DuplicateNameException;
 
 import java.util.List;
 import java.util.Random;
