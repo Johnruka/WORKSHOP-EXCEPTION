@@ -1,5 +1,9 @@
 package se.lexicon.data_access;
 
+import se.lexicon.domain.Gender;
+import se.lexicon.domain.Person;
+
+import java.util.List;
 import java.util.Random;
 
 public class NameService {
